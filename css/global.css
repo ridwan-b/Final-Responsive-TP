@@ -1,0 +1,41 @@
+html{
+  font-size: 16px;
+}
+
+@font-face {
+    font-family: 'My Lucida';
+    src: url('../font/LucidaGrande.ttf');
+    font-style: normal; 
+    font-weight: bold;
+}
+
+* {
+    font-family: 'My Lucida', Console;
+}
+
+div.clear{ clear:both;}
+
+header {
+  width : 100%;
+  height : 100%;
+  background : linear-gradient(to top, #efefef, white) no-repeat;
+}
+
+header img {
+  float : left;
+  width : 10em; /* avec 1em = 10px*/
+  height : 10em; /* avec 1em = 10px*/
+}
+header .search{
+  float : left;
+  margin-top : 20px;
+}
+body > header {
+    margin-bottom: 1.4825796886582653817642698295033%; /*20/1349*100*/
+    box-shadow: 0.1em 0em 0.8em rgb(200, 200, 200); /*1px 0px 8px avec 1em=10px*/
+}
+
+
+body{
+  font-size:62.5%; /*1em=10px*/
+}
